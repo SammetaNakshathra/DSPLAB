@@ -63,4 +63,4 @@ subplot(3,2,6)
 plot(om/pi,m6); grid
 ylabel('Gain in dB'); xlabel('Normalized frequency');
 title('FIR bandpass using kaiser window'); 
-axis([0 1 -100 10])
+axis([0 1 -100 10]);
