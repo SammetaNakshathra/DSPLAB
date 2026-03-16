@@ -49,4 +49,4 @@ b6=fir1(n,w1,y6);
 [h6 om]=freqz(b6,1,256); m6=20*log10(abs(h6));
 subplot(2,3,6) plot(om/pi,m6); grid
 ylabel('Gain in dB'); xlabel('Normalized frequency');
-title('FIR lowpass using kaiser window'); axis([0 1 -100 10])
+title('FIR lowpass using kaiser window'); axis([0 1 -100 10]) ;
